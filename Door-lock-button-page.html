@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Door lock page</title>
+    <link rel="stylesheet" href="main-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="full-body">
+      <h1>Click the button to lock or unlock</h1>
+      <div class="switches">
+        <p>
+          Main Door<label class="toggle">
+            <input type="checkbox" />
+            <span class="slider"></span>
+            <span class="labels" data-on="UNLOCKED" data-off="LOCKED"></span>
+          </label>
+        </p>
+
+        <p>
+          Back Door
+          <label class="toggle">
+            <input type="checkbox" />
+            <span class="slider"></span>
+            <span class="labels" data-on="UNLOCKED" data-off="LOCKED"></span>
+          </label>
+        </p>
+      </div>
+    </div>
+    <a href="Dashboard-carousel-page-resident.html">
+      <button class="Back">GO BACK</button>
+    </a>
+  </body>
+</html>
